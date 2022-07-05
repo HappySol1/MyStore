@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 function Mytable() {
     let inpVal = useRef()
     let printItem = Object.entries(products.productFromServer).map(([field, curProd]) => {
-        let linkurl = '/item/' + curProd.id
+        let linkurl = '/MyStore/item/' + curProd.id
         return sort.isVaild(curProd) ? (
             <div className="singleItem" key={curProd.id}>
                 <Link to={linkurl}><img src={curProd.imgUrl} alt="" /></Link>

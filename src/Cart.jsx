@@ -47,7 +47,7 @@ function Cart() {
             <strong>{cart.total}$</strong>
         </div>
         <hr />
-        <Link to='/EnterInfo' className="btn btn-success">Next step</Link>
+        <Link to='/MyStore/EnterInfo' className="btn btn-success">Next step</Link>
     </>
 }
 export default observer(Cart)

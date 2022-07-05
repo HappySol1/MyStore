@@ -15,13 +15,13 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Navigation />} >
+      <Route path="/MyStore/" element={<Navigation />} >
         <Route index element={<Mytable />} />
-        <Route path="/item/:id" element={<SingleProduct />} />
-        <Route path="EnterInfo" element={<EnterInfo />} />
-        <Route path="FinalScreen" element={<FinalScreen />} />
-        <Route path="Cart" element={<Cart />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="/MyStore/item/:id" element={<SingleProduct />} />
+        <Route path="/MyStore/EnterInfo" element={<EnterInfo />} />
+        <Route path="/MyStore/FinalScreen" element={<FinalScreen />} />
+        <Route path="/MyStore/Cart" element={<Cart />} />
+        <Route path="*" element={<Navigate to="/MyStore/" replace />} />
       </Route>
     </Routes>
   );

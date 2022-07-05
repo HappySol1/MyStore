@@ -29,7 +29,7 @@ export default function finalScreen() {
             <span>Телефон: {order.formData.phone.value} </span>
         </p>
         <br />
-        <a className="btn btn-info" href="/">На главную</a>
+        <a className="btn btn-info" href="https://happysol1.github.io/MyStore/">На главную</a>
     </div>;
 
 }

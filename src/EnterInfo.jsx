@@ -23,7 +23,7 @@ function EnterInfo() {
             {inputs}
             {/* <hr /> */}
             <div className="BtnsRow">
-                {order.isValid && <Link className="btn btn-info" disabled={!order.isValid} to="/FinalScreen">Купить</Link>}
+                {order.isValid && <Link className="btn btn-info" disabled={!order.isValid} to="/MyStore/FinalScreen">Купить</Link>}
             </div>
         </>
     )
